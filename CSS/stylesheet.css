@@ -1,0 +1,401 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background: linear-gradient(grey, white);
+	background-repeat: no-repeat;
+	height: 100%;
+	
+	
+}
+
+
+
+
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	margin-top: 70px
+		
+
+	
+}
+
+li {
+    float:left;
+	line-height: 2.5em;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		
+
+}
+
+
+li a:hover {
+    background-color: #111;
+		
+
+}
+
+#left{
+	float: left;
+	margin-top: 450px;
+	margin-left: 380px;
+
+}
+
+#about-title {
+	
+	
+	
+
+
+	float: right;
+	position: absolute;
+	right: 650px;
+	top: 500px;
+	padding: 20px;
+	
+
+
+
+
+
+}
+
+
+
+#Bio {
+	
+	width: 40%;
+	-webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+	float: right;
+	margin-right: 290px;
+	margin-top: 390px;
+	
+	
+	
+}
+
+.about-style {
+	border-radius: 20px;
+	opacity: 0.9;	
+	border: 3px solid black;
+	background-color: lightgray;
+	font-size: 25px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	position: relative;
+	padding: 5px;
+	
+	
+	
+	
+}
+
+
+#logo{
+	
+	float: left;
+	position: relative;
+	
+	
+	
+	
+	
+}
+
+#title {
+	
+	
+	font-size: 40px;
+	position: relative;
+	top: 20px;
+	width: 31%;
+	left: 35%;
+	margin: 5px;
+	
+}
+
+#profile{
+	float: left;
+	position: absolute;
+	margin-top: 20px;
+	border: thick;
+	border-radius: 50%;
+	margin-left: 358px;
+	
+	
+	
+}
+
+footer {
+	background-color: #333;
+	
+	position: fixed;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	left: 5px;
+	bottom: 0px;
+	right: 5px;
+	
+	
+	
+}
+
+.seth {
+	border-radius: 50%;
+	
+	
+	
+}
+
+#welcome {
+	
+	text-align: center;
+	position: absolute;
+	font-size: 35px;
+	left: 40%;
+	padding: 5px;
+	margin-top: 20px;
+	
+		
+	
+	
+	
+}
+
+#about {
+	left: 15%;
+	position: absolute;
+	top: 30%;
+	z-index: -1;
+	
+	
+	
+}
+
+#photography {
+	left: 53%;
+	position: absolute;
+	top: 30%;
+	z-index: -1;
+	
+	
+	
+}
+
+#design {
+	
+	left: 33%;
+	top: 53%;
+	position: absolute;
+	z-index: -1;
+	
+}
+
+#media {
+	
+	position: absolute;
+	top: 53%;
+	left: 72%;
+	z-index: -1;
+	
+}
+
+#about-text {
+	left: 19%;
+	position: absolute;
+	top: 49%;
+	
+	
+}
+
+#photography-text {
+	left: 56%;
+	position: absolute;
+	top: 49%;
+	
+	
+	
+}
+			
+#design-text {
+	left: 38.4%;
+	top: 72%;
+	position: absolute;
+	
+}	
+	
+#media-text {
+	position: absolute;
+	top: 72%;
+	left: 77.4%;
+	
+	
+}
+
+.font {
+	font-size: 40px;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1.3px;
+   -webkit-text-stroke-color: black;
+    
+	
+}
+
+.photography-photos {
+	
+	position: absolute;
+	border: 3px solid black;
+	
+	
+}
+
+.media-photos {
+	
+	position: fixed;
+	border: 3px solid black ;
+	border-radius: 50%;
+	
+	
+}
+ 
+#photo1 {
+	
+	left:15%;
+	top: 25%;
+	
+	
+}
+
+#photo2 {
+	
+	left: 15%;
+	top: 47%
+	
+	
+}
+
+#photo3 {
+	
+	left: 15%;
+	top: 69%;
+	
+	
+	
+}
+
+#photo4 {
+	
+	left: 40%;
+	top: 25%;
+	
+	
+}
+
+#photo5 {
+	
+	left: 40%;
+	top: 47%;
+	
+	
+}
+
+#photo6 {
+	
+	left: 40%;
+	top: 69%;
+	
+	
+}
+
+#photo7 {
+	
+	left: 65%;
+	top: 25%;
+	
+	
+}
+
+#photo8 {
+	
+	left: 65%;
+	top: 47%;
+	
+	
+}
+
+#photo9 {
+	
+	left: 65%;
+	top: 69%;
+	
+	
+}
+
+#photo-title {
+	
+	position: absolute;
+	left: 45%;
+	top:15%;
+	
+}
+
+#design-title {
+	
+	position: absolute;
+	left: 47%;
+	top:  15%;
+	width: 100px;
+	text-indent: 11px;
+	
+}
+
+#photo-description {
+	
+	margin-left: 38%;
+	width: 25%;
+	margin-top: 14.5%; 
+	text-align: center;
+	
+
+}
+
+#media-title {
+	
+	position: absolute;
+	left: 47%;
+	top:  15%;
+	width: 100px;
+	text-indent: 14px;
+	
+	
+	
+}
+
+#daniel-pic {
+	margin-left: 800px;
+	margin-top: 10px;
+}
+
+#daniel-bio {
+	position: fixed;
+	width: 500px;
+	left: 700px;
+	top: 550px;
+	
+}
